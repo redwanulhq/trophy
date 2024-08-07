@@ -1,0 +1,136 @@
+/* Hero css */
+@media (max-width: 1080px) {
+    .hero-content h2 {
+        font-size: 55px;
+    }
+}
+@media (max-width: 850px) {
+    .hero-content h2 {
+        font-size: 45px;
+    }
+    .common-btn {
+        height: 40px;
+        width: 155px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 650px) {
+    .hero-content h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 570px) {
+    .hero-content {
+        width: 100%;
+    }
+    .hero-area .container {
+        flex-direction: column;
+    }
+    .hero-img {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+}
+@media (max-width: 470px) {
+    .hero-img {
+        width: 95%;
+    }
+}
+/* Blog css */
+@media (max-width: 1000px) {
+    .blog-boxes {
+        padding: 50px 0;
+    }
+}
+@media (max-width: 880px) {
+    .blog-boxes {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 50px;
+        padding: 70px;
+    }
+}
+@media (max-width: 730px) {
+    .blog-boxes {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        padding: 80px;
+    }
+}
+@media (max-width: 600px) {
+    .blog-boxes {
+        padding: 50px 0;
+    }
+}
+/* Highlight css */
+@media (max-width: 1050px) {
+    .highlight-content h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .highlight-content p {
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .highlight-area .container {
+        flex-direction: column;
+    }
+    .highlight-content {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .highlight-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 600px) {
+    .highlight-img {
+        width: 100%;
+    }
+}
+/* Table css */
+@media (max-width: 800px) {
+    .table-container table {
+        min-width: 550px;
+    }
+    .table-container {
+        padding: 20px 0;
+        overflow-x: scroll;
+    }
+    .table-area h2 {
+        font-size: 35px;
+    }
+    .table-container th,
+    .table-container td {
+        padding: 15px 10px;
+        text-align: left;
+    }
+    .table-container thead {
+        font-size: 15px;
+    }
+    .table-container tbody {
+        font-size: 14px;
+    }
+}
+/* Sign up css */
+@media (max-width: 500px) {
+    .signup-input-container input[type="submit"] {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 360px) {
+    .signup-input-container input[type="email"] {
+        width: 100%;
+    }
+}
+/* Footer css */
+@media (max-width: 740px) {
+    .footer-img {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
